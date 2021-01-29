@@ -5,3 +5,5 @@ const User = () => {
         <h1>This is the User app</h1>
     )
 }
+
+export default User

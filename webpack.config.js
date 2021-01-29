@@ -43,7 +43,7 @@ module.exports = (_, argv) => ({
       name: "starter",
       filename: "remoteEntry.js",
       remotes: {
-        "header": "header@https://test-app-shell.vercel.app/remoteEntry.js"
+        "header": "header@https://test-app-shell.vercel.app/remoteEntry.js",
       },
       exposes: {
         "./User": "./src/components/User"
